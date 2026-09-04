@@ -1,0 +1,19 @@
+using System;
+
+namespace Session_03
+{
+    internal class Question8
+    {
+        public static void Run()
+        {
+            Console.Write("Enter a number: ");
+            int n = int.Parse(Console.ReadLine());
+
+            for (int i = 2; i <= n; i += 2)
+            {
+                Console.Write(i + " ");
+            }
+            Console.WriteLine();
+        }
+    }
+}
