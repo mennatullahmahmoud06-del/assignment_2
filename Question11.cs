@@ -29,10 +29,10 @@ namespace Session_03
                     days = 30;
                     break;
                 case 2:
-                    days = 28; // Not accounting for leap years
+                    days = 28;
                     break;
                 default:
-                    days = -1; // Invalid month
+                    days = -1;
                     break;
             }
 

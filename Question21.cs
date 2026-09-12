@@ -23,7 +23,6 @@ namespace Session_03
             int[] merged = new int[size * 2];
             int i1 = 0, i2 = 0, k = 0;
 
-            // Standard merge-two-sorted-arrays approach
             while (i1 < size && i2 < size)
             {
                 if (array1[i1] <= array2[i2])
